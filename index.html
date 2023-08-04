@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/archive/d/de/20171005153411%21Amazon_icon.png/120px-Amazon_icon.png" type="image/x-icon">
+</head>
+<body>
+    <nav class="navbar" id="top">
+        <div class="logo-wraper">
+            <img class="logo" src="assets/logo3.png"/>
+            <span class="logo-content">.in</span>
+        </div>
+        <div class="delivery-wraper">
+            <span class="nav-delivery">Delivery to</span>
+            <div class="location-place">
+                <svg width="30px" height="30px" class="location" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 21C15.5 17.4 19 14.1764 19 10.2C19 6.22355 15.866 3 12 3C8.13401 3 5 6.22355 5 10.2C5 14.1764 8.5 17.4 12 21Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span style="color: white;">ELURU</span>
+            </div>
+        </div>
+        <div class="search-bar">
+            <div class="filter-wraper">
+                <div class="filter" onclick="filter()">
+                    <span>All</span>
+                    <svg width="10px" height="10px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.0686 9H7.9313C7.32548 9 7.02257 9 6.88231 9.1198C6.76061 9.22374 6.69602 9.37967 6.70858 9.53923C6.72305 9.72312 6.93724 9.93731 7.36561 10.3657L11.4342 14.4343C11.6322 14.6323 11.7313 14.7313 11.8454 14.7684C11.9458 14.8011 12.054 14.8011 12.1544 14.7684C12.2686 14.7313 12.3676 14.6323 12.5656 14.4343L16.6342 10.3657C17.0626 9.93731 17.2768 9.72312 17.2913 9.53923C17.3038 9.37967 17.2392 9.22374 17.1175 9.1198C16.9773 9 16.6744 9 16.0686 9Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div id="hide-content" style="background-color: white;display:none;">
+                    <div class="inside-hide-content" style="background-color: white;">
+                        <span class="hide-content-hover">All categories</span>
+                        <span class="hide-content-hover">Alexa skills</span>
+                        <span class="hide-content-hover">Amazon Fashion</span>
+                        <span class="hide-content-hover">Amazon Pharmacy</span>
+                        <span class="hide-content-hover">Appliances</span>
+                        <span class="hide-content-hover">App & Games</span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <input class="searching" type="search" placeholder="Search Amazon.in"/>
+            </div>
+            <div>
+                <div class="buttton-search"><svg fill="#000000" width="24px" height="24px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M31.707 30.282l-9.717-9.776c1.811-2.169 2.902-4.96 2.902-8.007 0-6.904-5.596-12.5-12.5-12.5s-12.5 5.596-12.5 12.5 5.596 12.5 12.5 12.5c3.136 0 6.002-1.158 8.197-3.067l9.703 9.764c0.39 0.39 1.024 0.39 1.415 0s0.39-1.023 0-1.415zM12.393 23.016c-5.808 0-10.517-4.709-10.517-10.517s4.708-10.517 10.517-10.517c5.808 0 10.516 4.708 10.516 10.517s-4.709 10.517-10.517 10.517z"></path>
+                </svg></div>
+            </div>
+        </div>
+
+        <div class="language-wraper">
+            <img class="india" src="assets/pngegg.png" alt="india flag png @transparentpng.com">
+            <span class="language">EN</span>
+            <svg width="10px" height="10px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.0686 9H7.9313C7.32548 9 7.02257 9 6.88231 9.1198C6.76061 9.22374 6.69602 9.37967 6.70858 9.53923C6.72305 9.72312 6.93724 9.93731 7.36561 10.3657L11.4342 14.4343C11.6322 14.6323 11.7313 14.7313 11.8454 14.7684C11.9458 14.8011 12.054 14.8011 12.1544 14.7684C12.2686 14.7313 12.3676 14.6323 12.5656 14.4343L16.6342 10.3657C17.0626 9.93731 17.2768 9.72312 17.2913 9.53923C17.3038 9.37967 17.2392 9.22374 17.1175 9.1198C16.9773 9 16.6744 9 16.0686 9Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+
+        <div class="account-details">
+            <span class="acc-name">
+                Hello,Jayakrishna
+            </span>
+            <div class="acc">
+                <span>Accounts & Lists</span>
+                <svg width="10px" height="10px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.0686 9H7.9313C7.32548 9 7.02257 9 6.88231 9.1198C6.76061 9.22374 6.69602 9.37967 6.70858 9.53923C6.72305 9.72312 6.93724 9.93731 7.36561 10.3657L11.4342 14.4343C11.6322 14.6323 11.7313 14.7313 11.8454 14.7684C11.9458 14.8011 12.054 14.8011 12.1544 14.7684C12.2686 14.7313 12.3676 14.6323 12.5656 14.4343L16.6342 10.3657C17.0626 9.93731 17.2768 9.72312 17.2913 9.53923C17.3038 9.37967 17.2392 9.22374 17.1175 9.1198C16.9773 9 16.6744 9 16.0686 9Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+        </div>
+
+        <div class="account-details">
+            <span class="acc-name">
+                Returns
+            </span>
+            <div class="acc">
+                <span>& Orders</span>
+            </div>
+        </div>
+
+        <div class="cart">
+            <svg width="35px" height="35px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21 5L19 12H7.37671M20 16H8L6 3H3M13.5 3V9M13.5 3L11.5 5M13.5 3L15.5 5M9 20C9 20.5523 8.55228 21 8 21C7.44772 21 7 20.5523 7 20C7 19.4477 7.44772 19 8 19C8.55228 19 9 19.4477 9 20ZM20 20C20 20.5523 19.5523 21 19 21C18.4477 21 18 20.5523 18 20C18 19.4477 18.4477 19 19 19C19.5523 19 20 19.4477 20 20Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span style="color: white;">Cart</span>
+        </div>
+    </nav>
+    <div class="main-contents-wraper">
+        <div class="main-contents">
+            <div class="main-contents-sub">
+                <svg fill="#ffffff" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                        width="15px" height="15px" viewBox="0 0 606.191 606.191"
+                        xml:space="preserve">
+                    <g>
+                        <g>
+                            <g>
+                                <path d="M544.29,0.5H61.903c-32.059,0-58.14,26.082-58.14,58.14v64.75c0,32.059,26.082,58.14,58.14,58.14H544.29
+                                    c32.057,0,58.139-26.082,58.139-58.14V58.64C602.429,26.582,576.349,0.5,544.29,0.5z M559.589,123.39
+                                    c0,8.45-6.85,15.3-15.299,15.3H61.903c-8.45,0-15.3-6.85-15.3-15.3V58.64c0-8.45,6.85-15.3,15.3-15.3H544.29
+                                    c8.449,0,15.299,6.85,15.299,15.3V123.39z"/>
+                                <path d="M544.29,182.03H61.903c-32.334,0-58.64-26.306-58.64-58.64V58.64C3.263,26.306,29.568,0,61.903,0H544.29
+                                    c32.333,0,58.639,26.306,58.639,58.64v64.75C602.929,155.725,576.623,182.03,544.29,182.03z M61.903,1
+                                    C30.12,1,4.263,26.857,4.263,58.64v64.75c0,31.783,25.857,57.64,57.64,57.64H544.29c31.782,0,57.639-25.857,57.639-57.64V58.64
+                                    C601.929,26.857,576.072,1,544.29,1H61.903z M544.29,139.19H61.903c-8.712,0-15.8-7.088-15.8-15.8V58.64
+                                    c0-8.712,7.088-15.8,15.8-15.8H544.29c8.712,0,15.799,7.088,15.799,15.8v64.75C560.089,132.103,553.002,139.19,544.29,139.19z
+                                    M61.903,43.84c-8.161,0-14.8,6.639-14.8,14.8v64.75c0,8.161,6.639,14.8,14.8,14.8H544.29c8.16,0,14.799-6.639,14.799-14.8V58.64
+                                    c0-8.161-6.639-14.8-14.799-14.8H61.903z"/>
+                            </g>
+                            <g>
+                                <path d="M544.29,212.582H61.903c-32.059,0-58.14,26.082-58.14,58.14v64.75c0,32.059,26.082,58.141,58.14,58.141H544.29
+                                    c32.057,0,58.139-26.082,58.139-58.141v-64.75C602.429,238.663,576.349,212.582,544.29,212.582z M559.589,335.471
+                                    c0,8.449-6.85,15.301-15.299,15.301H61.903c-8.45,0-15.3-6.852-15.3-15.301v-64.75c0-8.45,6.85-15.3,15.3-15.3H544.29
+                                    c8.449,0,15.299,6.85,15.299,15.3V335.471z"/>
+                                <path d="M544.29,394.111H61.903c-32.334,0-58.64-26.306-58.64-58.641v-64.75c0-32.334,26.306-58.64,58.64-58.64H544.29
+                                    c32.333,0,58.639,26.306,58.639,58.64v64.75C602.929,367.806,576.623,394.111,544.29,394.111z M61.903,213.082
+                                    c-31.783,0-57.64,25.857-57.64,57.64v64.75c0,31.783,25.857,57.641,57.64,57.641H544.29c31.782,0,57.639-25.857,57.639-57.641
+                                    v-64.75c0-31.783-25.856-57.64-57.639-57.64H61.903z M544.29,351.271H61.903c-8.712,0-15.8-7.088-15.8-15.801v-64.75
+                                    c0-8.712,7.088-15.8,15.8-15.8H544.29c8.712,0,15.799,7.088,15.799,15.8v64.75C560.089,344.184,553.002,351.271,544.29,351.271z
+                                    M61.903,255.921c-8.161,0-14.8,6.639-14.8,14.8v64.75c0,8.161,6.639,14.801,14.8,14.801H544.29
+                                    c8.16,0,14.799-6.64,14.799-14.801v-64.75c0-8.161-6.639-14.8-14.799-14.8H61.903z"/>
+                            </g>
+                            <g>
+                                <path d="M544.29,424.662H61.903c-32.059,0-58.14,26.082-58.14,58.141v64.75c0,32.059,26.082,58.139,58.14,58.139H544.29
+                                    c32.057,0,58.139-26.08,58.139-58.139v-64.75C602.429,450.744,576.349,424.662,544.29,424.662z M559.589,547.553
+                                    c0,8.449-6.85,15.299-15.299,15.299H61.903c-8.45,0-15.3-6.85-15.3-15.299v-64.75c0-8.451,6.85-15.301,15.3-15.301H544.29
+                                    c8.449,0,15.299,6.85,15.299,15.301V547.553z"/>
+                                <path d="M544.29,606.191H61.903c-32.334,0-58.64-26.306-58.64-58.639v-64.75c0-32.335,26.306-58.641,58.64-58.641H544.29
+                                    c32.333,0,58.639,26.306,58.639,58.641v64.75C602.929,579.886,576.623,606.191,544.29,606.191z M61.903,425.162
+                                    c-31.783,0-57.64,25.857-57.64,57.641v64.75c0,31.782,25.857,57.639,57.64,57.639H544.29c31.782,0,57.639-25.856,57.639-57.639
+                                    v-64.75c0-31.783-25.856-57.641-57.639-57.641H61.903z M544.29,563.352H61.903c-8.712,0-15.8-7.087-15.8-15.799v-64.75
+                                    c0-8.713,7.088-15.801,15.8-15.801H544.29c8.712,0,15.799,7.088,15.799,15.801v64.75
+                                    C560.089,556.265,553.002,563.352,544.29,563.352z M61.903,468.002c-8.161,0-14.8,6.64-14.8,14.801v64.75
+                                    c0,8.16,6.639,14.799,14.8,14.799H544.29c8.16,0,14.799-6.639,14.799-14.799v-64.75c0-8.161-6.639-14.801-14.799-14.801H61.903z"
+                                    />
+                            </g>
+                        </g>
+                    </g>
+                    </svg>
+                    <span class="main-con">All</span>
+            </div>
+            <div class="main-contents-sub">
+                <span class="main-con">Amazon miniTv</span>
+            </div>
+            <div class="main-contents-sub">
+                <span class="main-con">Sell</span>
+            </div>
+            <div class="main-contents-sub">
+                <span class="main-con">Amazon Pay</span>
+            </div>
+            <div class="main-contents-sub">
+                <span class="main-con">Gifts cards</span>
+            </div>
+            <div class="main-contents-sub">
+                <span class="main-con">Buy again</span>
+            </div>
+            <div class="main-contents-sub">
+                <span class="main-con">Health,Household & Personal Care</span>
+            </div>
+            <div class="main-contents-sub">
+                <span class="main-con">Kindle eBooks</span>
+            </div>
+        </div>
+        <div  class="main-contents-sub">
+            <span style="color: white;">New launches from Mobiles,Electronics & more|Shop now</span>
+        </div>
+    </div>
+    <!-- slideshow -->
+    <div>
+        <div>
+            <img class="home-image-slider" src="https://images-eu.ssl-images-amazon.com/images/G/31/prime/AugART/Acq/ftpc/Updated_hero_2_FT._CB599285209_.jpg" alt="home"/>
+        </div>
+        <div>
+            <img class="home-image-slider" src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/vinambia/5thgearAug/D80228526_WLD_5Gstore_BAU_DesignSIM_Tall_Hero_3000x1200._CB599487672_.jpg" alt="home"/>
+        </div>
+        <div>
+            <img class="home-image-slider" src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Toys/GW/PC_Hero_2x_Rec_OT_APAY._CB598759972_.jpg" alt="home"/>
+        </div>
+        <div>
+            <img class="home-image-slider" src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Softlines_JWL_SH_GW_Assets/June23/ATF/BAU/luggage/Pack_up_days/V2/Revised/1/3000._CB599485741_.jpg" alt="home"/>
+        </div>
+        <div>
+            <img class="home-image-slider" src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Home/AmazonTV/HipHopIndia/GW_Hero_PC/Season3_4/3000x1200_new._CB598815751_.jpg" alt="home"/>
+        </div>
+        <div>
+            <img class="home-image-slider" src="https://m.media-amazon.com/images/I/71cmQ4-ezGL._SX3000_.jpg" alt="home"/>
+        </div>
+        <div class="slider-buttons">
+            <div onclick="imgchange(-1)" class="cherovan">
+                <svg height="30px" width="30px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                    viewBox="0 0 511.999 511.999" xml:space="preserve">
+                    <path style="fill:#000;" d="M172.548,256.005L388.82,39.729c9.089-9.089,9.089-23.824,0-32.912s-23.824-9.089-32.912,0.002
+                        L123.18,239.551c-4.366,4.363-6.817,10.282-6.817,16.454c0,6.173,2.453,12.093,6.817,16.457l232.727,232.721
+                        c4.543,4.544,10.499,6.816,16.455,6.816s11.913-2.271,16.457-6.817c9.089-9.089,9.089-23.824,0-32.912L172.548,256.005z"/>
+                </svg>
+            </div>
+            <div onclick="imgchange(1)" class="cherovan">
+                <svg height="30px" width="30px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                    viewBox="0 0 512.001 512.001" xml:space="preserve">
+                    <path style="fill:#000;" d="M388.819,239.537L156.092,6.816c-9.087-9.089-23.824-9.089-32.912,0.002
+                        c-9.087,9.089-9.087,23.824,0.002,32.912l216.27,216.266L123.179,472.272c-9.087,9.089-9.087,23.824,0.002,32.912
+                        c4.543,4.544,10.499,6.816,16.455,6.816c5.956,0,11.913-2.271,16.457-6.817L388.819,272.45c4.366-4.364,6.817-10.283,6.817-16.455
+                        C395.636,249.822,393.185,243.902,388.819,239.537z"/>
+                </svg>
+            </div>
+        </div>
+        <!-- contents  -->
+        <div class="row-items">
+            <div class="item-cards">
+                <div class="item-cards-text">
+                    <span class="item-cards-texti"><b>Prime Early Deals | Starting</b></span>
+                    <span class="item-cards-texti"><b>₹99 | Books, toys & more</b></span>
+                </div>
+                <div class="total-card-items">
+                    <div class="vertical-items">
+                        <div class="cards-items">
+                            <img class="inner-item-cards-img" src="https://images-eu.ssl-images-amazon.com/images/G/31/media/AugART_2023/Books-1x._SY116_CB599275674_.jpg" alt="items"/>
+                            <span class="inner-item-cards-text">books under ₹199</span>
+                        </div>
+                        <div class="cards-items">
+                            <img class="inner-item-cards-img" src="https://images-eu.ssl-images-amazon.com/images/G/31/media/AugART_2023/Toys-1x._SY116_CB599275674_.jpg" alt="items"/>
+                            <span class="inner-item-cards-text">Toys under ₹299</span>
+                        </div>
+                    </div>
+                    <div class="vertical-items">
+                        <div class="cards-items">
+                            <img class="inner-item-cards-img" src="https://images-eu.ssl-images-amazon.com/images/G/31/media/AugART_2023/HCD-1x._SY116_CB599275674_.jpg" alt="items"/>
+                            <span class="inner-item-cards-text">Grooming and wellness starting ₹299</span>
+                        </div>
+                        <div class="cards-items">
+                            <img class="inner-item-cards-img" src="https://images-eu.ssl-images-amazon.com/images/G/31/media/AugART_2023/Books-1x._SY116_CB599275674_.jpg" alt="items"/>
+                            <span class="inner-item-cards-text">books under ₹199</span>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="item-see-all">See all offers</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-cards">
+                <div class="item-cards-text">
+                    <span class="item-cards-texti"><b>Smartphones that suits your</b></span>
+                    <span class="item-cards-texti"><b>budget</b></span>
+                </div>
+                <div class="total-card-items">
+                    <div class="vertical-items">
+                        <div class="cards-items">
+                            <img class="inner-item-cards-img" src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/Meghana/iQOO/AugART/23/MSO/Curation/PC_QC_186x116_1._SY116_CB599068902_.jpg" alt="items"/>
+                            <span class="inner-item-cards-text">Budget | under ₹10000</span>
+                        </div>
+                        <div class="cards-items">
+                            <img class="inner-item-cards-img" src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/Meghana/iQOO/AugART/23/MSO/Curation/PC_QC_186x116_2._SY116_CB599068902_.jpg" alt="items"/>
+                            <span class="inner-item-cards-text">Mid range | under ₹10000 - ₹20000</span>
+                        </div>
+                    </div>
+                    <div class="vertical-items">
+                        <div class="cards-items">
+                            <img class="inner-item-cards-img" src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/Meghana/iQOO/AugART/23/MSO/Curation/PC_QC_186x116_3._SY116_CB599068902_.jpg" alt="items"/>
+                            <span class="inner-item-cards-text">premium | ₹20000 - ₹45000</span>
+                        </div>
+                        <div class="cards-items">
+                            <img class="inner-item-cards-img" src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/Meghana/iQOO/AugART/23/MSO/Curation/PC_QC_186x116_4._SY116_CB599068902_.jpg" alt="items"/>
+                            <span class="inner-item-cards-text">Ultra premium | above ₹45000</span>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="item-see-all">See all offers</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-cards">
+                <div class="item-cards-text">
+                    <span class="item-cards-texti"><b>Up to 70% off | Deals on</b></span>
+                    <span class="item-cards-texti"><b>Amazon Brands & more</b></span>
+                </div>
+                <div class="total-card-items">
+                    <div class="vertical-items">
+                        <div class="cards-items">
+                            <img class="inner-item-cards-img" src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/PB/PC_QC_186x116_home._SY116_CB599312505_.jpg" alt="items"/>
+                            <span class="inner-item-cards-text">Up to 70% off | Home & Kitchen</span>
+                        </div>
+                        <div class="cards-items">
+                            <img class="inner-item-cards-img" src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/PB/AugART23/Gateway/PC/BTF/PC_QC_186x116._SY116_CB599387774_.jpg" alt="items"/>
+                            <span class="inner-item-cards-text">Up to 70% off | Electronic accessories</span>
+                        </div>
+                    </div>
+                    <div class="vertical-items">
+                        <div class="cards-items">
+                            <img class="inner-item-cards-img" src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/PB/AugART23/Gateway/PC/BTF/PC_QC_186x116_1._SY116_CB599387774_.jpg" alt="items"/>
+                            <span class="inner-item-cards-text">Up to 60% off | Daily essentials</span>
+                        </div>
+                        <div class="cards-items">
+                            <img class="inner-item-cards-img" src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/PB/PC_QC_186x116_softlines._SY116_CB599312505_.jpg" alt="items"/>
+                            <span class="inner-item-cards-text">Under ₹599 | Clothings,shoe & more</span>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="item-see-all">See all offers</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-cards">
+                <div class="item-cards-text">
+                    <span class="item-cards-texti"><b>Starting ₹79 | Home &</b></span>
+                    <span class="item-cards-texti"><b>kitchen</b></span>
+                </div>
+                <div class="total-card-items">
+                    <div class="vertical-items">
+                        <div class="cards-items">
+                            <img class="inner-item-cards-img" src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/OHL/Augart23PCQC/Unrec/1/Home_1._SY116_CB598848284_.jpg" alt="items"/>
+                            <span class="inner-item-cards-text">Home decor & essentials</span>
+                        </div>
+                        <div class="cards-items">
+                            <img class="inner-item-cards-img" src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/OHL/Augart23PCQC/Unrec/1/Knd_1._SY116_CB598848284_.jpg" alt="items"/>
+                            <span class="inner-item-cards-text">Cookware & dining</span>
+                        </div>
+                    </div>
+                    <div class="vertical-items">
+                        <div class="cards-items">
+                            <img class="inner-item-cards-img" src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/OHL/Augart23PCQC/Unrec/1/Furniture_1._SY116_CB598848284_.jpg" alt="items"/>
+                            <span class="inner-item-cards-text">Furniture & mattresses</span>
+                        </div>
+                        <div class="cards-items">
+                            <img class="inner-item-cards-img" src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/OHL/Augart23PCQC/Unrec/1/HI_1._SY116_CB598848284_.jpg" alt="items"/>
+                            <span class="inner-item-cards-text">Tools & home improvements</span>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="item-see-all">See all offers</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-cards">
+                <div class="item-cards-text">
+                    <span class="item-cards-texti"><b>Prime Early Deals | Starting</b></span>
+                    <span class="item-cards-texti"><b>₹129 | Monitors, storage</b></span>
+                </div>
+                <div class="total-card-items">
+                    <div>
+                        <img class="single-img" src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/aa23/pdacc/gw/unrec/PC_CC_379x304._SY304_CB599426206_.jpg"/>
+                    </div>
+                    <div>
+                        <span class="item-see-all">See all offers</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-cards">
+                <div class="item-cards-text">
+                    <span class="item-cards-texti"><b>Up to 35% off on medicines</b></span>
+                    <span class="item-cards-texti"><br></span>
+                </div>
+                <div class="total-card-items">
+                    <div>
+                        <img class="single-img" src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Pharmacy/AUG23/PC_CC_379x304_AUGART._SY304_CB599354219_.jpg"/>
+                    </div>
+                    <div>
+                        <span class="item-see-all">See all offers</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-cards">
+                <div class="item-cards-text">
+                    <span class="item-cards-texti"><b>50% - 80% off | Men's</b></span>
+                    <span class="item-cards-texti"><b>fashion</b></span>
+                </div>
+                <div class="total-card-items">
+                    <div class="vertical-items">
+                        <div class="cards-items">
+                            <img class="inner-item-cards-img" src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/Event/Gateway/AugART/QC/PCQC/Rev/MF-1-1x._SY116_CB599377494_.png" alt="items"/>
+                            <span class="inner-item-cards-text">clothes</span>
+                        </div>
+                        <div class="cards-items">
+                            <img class="inner-item-cards-img" src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/Event/Gateway/AugART/QC/PCQC/Rev/MF-4-1x._SY116_CB599377494_.png" alt="items"/>
+                            <span class="inner-item-cards-text">Footware</span>
+                        </div>
+                    </div>
+                    <div class="vertical-items">
+                        <div class="cards-items">
+                            <img class="inner-item-cards-img" src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/Event/Gateway/AugART/QC/PCQC/Rev/MF-2-1x._SY116_CB599377494_.png" alt="items"/>
+                            <span class="inner-item-cards-text">Watches</span>
+                        </div>
+                        <div class="cards-items">
+                            <img class="inner-item-cards-img" src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/Event/Gateway/AugART/QC/PCQC/Rev/MF-3-1x._SY116_CB599377494_.png" alt="items"/>
+                            <span class="inner-item-cards-text">Bags & luggages</span>
+                            <br>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="item-see-all">See all offers</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-cards">
+                <div class="item-cards-text">
+                    <span class="item-cards-texti"><b>Prime Early Deals | Starting</b></span>
+                    <span class="item-cards-texti"><b>₹99 | Books, toys & more</b></span>
+                </div>
+                <div class="total-card-items">
+                    <div class="vertical-items">
+                        <div class="cards-items">
+                            <img class="inner-item-cards-img" src="https://images-eu.ssl-images-amazon.com/images/G/31/media/AugART_2023/Books-1x._SY116_CB599275674_.jpg" alt="items"/>
+                            <span class="inner-item-cards-text">books under ₹199</span>
+                        </div>
+                        <div class="cards-items">
+                            <img class="inner-item-cards-img" src="https://images-eu.ssl-images-amazon.com/images/G/31/media/AugART_2023/Toys-1x._SY116_CB599275674_.jpg" alt="items"/>
+                            <span class="inner-item-cards-text">Toys under ₹299</span>
+                        </div>
+                    </div>
+                    <div class="vertical-items">
+                        <div class="cards-items">
+                            <img class="inner-item-cards-img" src="https://images-eu.ssl-images-amazon.com/images/G/31/media/AugART_2023/HCD-1x._SY116_CB599275674_.jpg" alt="items"/>
+                            <span class="inner-item-cards-text">Grooming and wellness starting ₹299</span>
+                        </div>
+                        <div class="cards-items">
+                            <img class="inner-item-cards-img" src="https://images-eu.ssl-images-amazon.com/images/G/31/media/AugART_2023/Books-1x._SY116_CB599275674_.jpg" alt="items"/>
+                            <span class="inner-item-cards-text">books under ₹199</span>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="item-see-all">See all offers</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scrolling div -->
+        <div>
+            <div class="x-contents-wraper">
+                <div class="x-contents">
+                    <div class="internal-x-contents">
+                        <div>
+                            <span>Blockbuster deals</span>
+                            <span class="item-see-all">See all offers</span>
+                        </div>
+                        <div class="x-contents-img">
+                            <div class="x-contents-flex">
+                                <div  class="contents-img"><img class="x-contents-img2" src="https://m.media-amazon.com/images/I/31wacBawB3L._AC_SY200_.jpg" alt="img"/></div>
+                                <div><span class="contents-text">Great Freedom Sale</span></div>
+                                <div><span class="second-contents-text">iPhone 14 starting at Rs.66999</span></div>
+                            </div>
+    
+                            <div class="x-contents-flex">
+                                <div  class="contents-img"><img class="x-contents-img2" src="https://m.media-amazon.com/images/I/41Q+oC53k+L._AC_SY200_.jpg" alt="img"/></div>
+                                <div><span class="contents-text">Great Freedom Sale</span></div>
+                                <div><span class="second-contents-text">Redmi 12 5G starting at Rs.15499</span></div>
+                            </div>
+    
+                            <div class="x-contents-flex">
+                                <div  class="contents-img"><img class="x-contents-img2" src="https://m.media-amazon.com/images/I/413u56t+CiL._AC_SY200_.jpg" alt="img"/></div>
+                                <div><span class="contents-text">Great Freedom Sale</span></div>
+                                <div><span class="second-contents-text">OnePlus node CE2 lite</span></div>
+                            </div>
+    
+                            <div class="x-contents-flex">
+                                <div  class="contents-img"><img class="x-contents-img2" src="https://m.media-amazon.com/images/I/41LMF7AU30L._AC_SY200_.jpg" alt="img"/></div>
+                                <div><span class="contents-text">Great Freedom Sale</span></div>
+                                <div><span class="second-contents-text">iQOO Neo 7 Pro|| Exclusive offer</span></div>
+                            </div>
+    
+                            <div class="x-contents-flex">
+                                <div  class="contents-img"><img class="x-contents-img2" src="https://m.media-amazon.com/images/I/411tvqwA49L._AC_SY200_.jpg" alt="img"/></div>
+                                <div><span class="contents-text">Great Freedom Sale</span></div>
+                                <div><span class="second-contents-text">Boat independance day sale</span></div>
+                            </div>
+
+                            <div class="x-contents-flex">
+                                <div  class="contents-img"><img class="x-contents-img2" src="https://m.media-amazon.com/images/I/31IdsY7yWTL._AC_SY200_.jpg" alt="img"/></div>
+                                <div><span class="contents-text">Great Freedom Sale</span></div>
+                                <div><span class="second-contents-text">Top headsets from Oneplus,sam..</span></div>
+                            </div>
+
+                            <div class="x-contents-flex">
+                                <div  class="contents-img"><img class="x-contents-img2" src="https://m.media-amazon.com/images/I/31sIEzlmGTL._AC_SY200_.jpg" alt="img"/></div>
+                                <div><span class="contents-text">Great Freedom Sale</span></div>
+                                <div><span class="second-contents-text">Branded suitcases and trolleys</span></div>
+                            </div>
+
+                            <div class="x-contents-flex">
+                                <div  class="contents-img"><img class="x-contents-img2" src="https://m.media-amazon.com/images/I/31+bdAv8-0L._AC_SY200_.jpg" alt="img"/></div>
+                                <div><span class="contents-text">Great Freedom Sale</span></div>
+                                <div><span class="second-contents-text">Top selling storage devices</span></div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-buttons2">
+                <div onclick="moveScroll(-850)" id="move1" class="cherovan2">
+                    <svg height="30px" width="30px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                        viewBox="0 0 511.999 511.999" xml:space="preserve">
+                        <path style="fill:#000;" d="M172.548,256.005L388.82,39.729c9.089-9.089,9.089-23.824,0-32.912s-23.824-9.089-32.912,0.002
+                            L123.18,239.551c-4.366,4.363-6.817,10.282-6.817,16.454c0,6.173,2.453,12.093,6.817,16.457l232.727,232.721
+                            c4.543,4.544,10.499,6.816,16.455,6.816s11.913-2.271,16.457-6.817c9.089-9.089,9.089-23.824,0-32.912L172.548,256.005z"/>
+                    </svg>
+                </div>
+                <div onclick="moveScroll(+850)" class="cherovan2">
+                    <svg height="30px" width="30px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                        viewBox="0 0 512.001 512.001" xml:space="preserve">
+                        <path style="fill:#000;" d="M388.819,239.537L156.092,6.816c-9.087-9.089-23.824-9.089-32.912,0.002
+                            c-9.087,9.089-9.087,23.824,0.002,32.912l216.27,216.266L123.179,472.272c-9.087,9.089-9.087,23.824,0.002,32.912
+                            c4.543,4.544,10.499,6.816,16.455,6.816c5.956,0,11.913-2.271,16.457-6.817L388.819,272.45c4.366-4.364,6.817-10.283,6.817-16.455
+                            C395.636,249.822,393.185,243.902,388.819,239.537z"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br><br><br><br>
+        <!-- offer -->
+        <br>
+        <div class="template-wraper">
+            <div  class="offer-template">
+                <img class="template-image" src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/AmazonPay/AugART/V6/PED_GWeditorial_2300x646._CB599331202_.jpg" alt="offer-image"/>
+            </div>
+        </div>
+
+        <!-- Scrolling div -->
+        <div>
+            <div class="x-contents-wraper">
+                <div class="x-contents2">
+                    <div class="internal-x-contents2">
+                        <div>
+                            <span>Starting ₹899 | Bestselling smartwatches</span>
+                            <span class="item-see-all">See all offers</span>
+                        </div>
+                        <div class="x-contents-img">
+                            <div class="x-contents-flex">
+                                <div  class="contents-img2"><img class="x-contents-img2" src="https://m.media-amazon.com/images/I/61S9aVnRZDL._AC_SY200_.jpg" alt="img"/></div>
+                            </div>
+                            
+                            <div class="x-contents-flex">
+                                <div  class="contents-img2"><img class="x-contents-img2" src="https://m.media-amazon.com/images/I/61TapeOXotL._AC_SY200_.jpg" alt="img"/></div>
+                            </div>
+
+                            <div class="x-contents-flex">
+                                <div  class="contents-img2"><img class="x-contents-img2" src="https://m.media-amazon.com/images/I/61eq73o4VaL._AC_SY200_.jpg" alt="img"/></div>
+                            </div>
+
+                            <div class="x-contents-flex">
+                                <div  class="contents-img2"><img class="x-contents-img2" src="https://m.media-amazon.com/images/I/61ArSKA048L._AC_SY200_.jpg" alt="img"/></div>
+                            </div>
+
+                            <div class="x-contents-flex">
+                                <div  class="contents-img2"><img class="x-contents-img2" src="https://m.media-amazon.com/images/I/61WQsMHoQhL._AC_SY200_.jpg" alt="img"/></div>
+                            </div>
+
+                            <div class="x-contents-flex">
+                                <div  class="contents-img2"><img class="x-contents-img2" src="https://m.media-amazon.com/images/I/61y2VVWcGBL._AC_SY200_.jpg" alt="img"/></div>
+                            </div>
+
+                            <div class="x-contents-flex">
+                                <div  class="contents-img2"><img class="x-contents-img2" src="https://m.media-amazon.com/images/I/61SSVxTSs3L._AC_SY200_.jpg" alt="img"/></div>
+                            </div>
+
+                            <div class="x-contents-flex">
+                                <div  class="contents-img2"><img class="x-contents-img2" src="https://m.media-amazon.com/images/I/61pBjsIyVeL._AC_SY200_.jpg" alt="img"/></div>
+                            </div>
+
+                            <div class="x-contents-flex">
+                                <div  class="contents-img2"><img class="x-contents-img2" src="https://m.media-amazon.com/images/I/61ImYWJbw9L._AC_SY200_.jpg" alt="img"/></div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-buttons2">
+                <div onclick="moveScroll2(-850)" id="move1" class="cherovan2">
+                    <svg height="30px" width="30px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                        viewBox="0 0 511.999 511.999" xml:space="preserve">
+                        <path style="fill:#000;" d="M172.548,256.005L388.82,39.729c9.089-9.089,9.089-23.824,0-32.912s-23.824-9.089-32.912,0.002
+                            L123.18,239.551c-4.366,4.363-6.817,10.282-6.817,16.454c0,6.173,2.453,12.093,6.817,16.457l232.727,232.721
+                            c4.543,4.544,10.499,6.816,16.455,6.816s11.913-2.271,16.457-6.817c9.089-9.089,9.089-23.824,0-32.912L172.548,256.005z"/>
+                    </svg>
+                </div>
+                <div onclick="moveScroll2(+850)" class="cherovan2">
+                    <svg height="30px" width="30px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                        viewBox="0 0 512.001 512.001" xml:space="preserve">
+                        <path style="fill:#000;" d="M388.819,239.537L156.092,6.816c-9.087-9.089-23.824-9.089-32.912,0.002
+                            c-9.087,9.089-9.087,23.824,0.002,32.912l216.27,216.266L123.179,472.272c-9.087,9.089-9.087,23.824,0.002,32.912
+                            c4.543,4.544,10.499,6.816,16.455,6.816c5.956,0,11.913-2.271,16.457-6.817L388.819,272.45c4.366-4.364,6.817-10.283,6.817-16.455
+                            C395.636,249.822,393.185,243.902,388.819,239.537z"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="total-footer">
+            <div class="footer-travel">
+                <span><a class="achor" href="""#top">Back to top</a></span>
+            </div>
+            <div class="footer-details">
+                <div class="footer-details-contents">
+                    <h4 class="footer-details-text">Get to Know Us</h4>
+                    <span class="footer-details-texti">About Us</span>
+                    <span class="footer-details-texti">Careers</span>
+                    <span class="footer-details-texti">Press Releases</span>
+                    <span class="footer-details-texti">Amazon Science</span>
+                </div>
+                <div class="footer-details-contents">
+                    <h4 class="footer-details-text">Connect with Us</h4>
+                    <span class="footer-details-texti">Facebook</span>
+                    <span class="footer-details-texti">Twitter/span>
+                    <span class="footer-details-texti">Instagram</span>
+                </div>
+                <div class="footer-details-contents">
+                    <h4 class="footer-details-text">Make Money with Us</h4>
+                    <span class="footer-details-texti">Sell on Amazon</span>
+                    <span class="footer-details-texti">Sell under Amazon Accelerator</span>
+                    <span class="footer-details-texti">Protect and Build Your Brand</span>
+                    <span class="footer-details-texti">Amazon Global Selling</span>
+                    <span class="footer-details-texti">Become an Affiliate</span>
+                    <span class="footer-details-texti">Fulfilment by Amazon</span>
+                    <span class="footer-details-texti">Advertise Your Products</span>
+                    <span class="footer-details-texti">Amazon Pay on Merchants</span>
+                </div>
+                <div class="footer-details-contents">
+                    <h4 class="footer-details-text">	
+                        Let Us Help You</h4>
+                    <span class="footer-details-texti">COVID-19 and Amazon</span>
+                    <span class="footer-details-texti">Your Account</span>
+                    <span class="footer-details-texti">Returns Centre</span>
+                    <span class="footer-details-texti">100% Purchase Protection</span>
+                    <span class="footer-details-texti">Amazon App Download</span>
+                    <span class="footer-details-texti">Help</span>
+                </div>
+            </div>
+            <div class="details-footer">
+                <div><br><br><hr></div>
+                <div class="footer-logo">
+                    <div><img class="logo" src="assets/logo3.png"/></div>
+                    <div>
+                        <div class="language2">English</div>
+                    </div>
+                </div>
+                <div class="countries-wraper">
+                    <div class="countries">Australia</div>
+                    <div class="countries">Brazil</div>
+                    <div class="countries"> Canada</div>
+                    <div class="countries">China</div>
+                    <div class="countries">France</div>
+                    <div class="countries">Germany</div>
+                    <div class="countries">Italy</div>
+                    <div class="countries">Japan</div>
+                    <div class="countries">Mexico</div>
+                    <div class="countries">Netherlands</div>
+                    <div class="countries">Poland</div>
+                    <div class="countries">Singapore</div>
+                    <div class="countries">Spain</div>
+                    <div class="countries">Turkey</div>
+                    <div class="countries">United Arab Emirates</div>
+                </div>
+            </div>
+            <div class="services-amazon">
+                <div class="total-services-flex">
+                    <div class="services-flex">
+                        <span class="amazon-services-title">AbeBooks</span>
+                        <span class="amazon-services">Books, art</span>
+                        <span class="amazon-services">& collectibles</span>
+                    </div>
+                    <div class="services-flex">
+                        <span class="amazon-services-title">Amazon Web Services</span>
+                        <span class="amazon-services">Scalable Cloud</span>
+                        <span class="amazon-services">Computing Services</span>
+                    </div>
+                    <div class="services-flex">
+                       <span class="amazon-services-title">Audible</span> 
+                        <span class="amazon-services">Download</span>
+                        <span class="amazon-services">Audio Books</span>
+                    </div>
+                    <div class="services-flex">
+                        <span class="amazon-services-title">DPReview</span>
+                        <span class="amazon-services">Digital</span>
+                        <span class="amazon-services">Photography</span>
+                    </div>
+                    <div class="services-flex">
+                        <span class="amazon-services-title">IMDb</span>
+                        <span class="amazon-services">Movies, TV</span>
+                        <span class="amazon-services">& Celebrities</span>
+                    </div>
+                    <div class="services-flex">
+                        <span class="amazon-services-title">Shopbop</span>
+                        <span class="amazon-services">Designer</span>
+                        <span class="amazon-services">Fashion Brands</span> 
+                    </div>
+                    <div class="services-flex">
+                        <span class="amazon-services-title">Amazon Business</span>
+                        <span class="amazon-services">Everything For</span>
+                        <span class="amazon-services">Your Business</span>
+                    </div>
+                    <div class="services-flex">
+                        <span class="amazon-services-title">Prime Now</span>
+                        <span class="amazon-services">2-Hour Delivery</span>
+                        <span class="amazon-services">on Everyday Items</span>
+                    </div>
+                    <div class="services-flex">
+                        <span class="amazon-services-title">Amazon Prime Music</span>
+                        <span class="amazon-services">100 million songs, ad-free</span>
+                        <span class="amazon-services">Over 15 million podcast episodes</span>
+                    </div>
+                </div>
+                <div class="copyrights">
+                    <span class="amazon-services-title2">Conditions of Use & Sale</span>
+                    <span class="amazon-services-title2">Privacy Notice</span> 
+                    <span class="amazon-services-title2">Interest-Based Ads</span>
+                </div>
+                <div class="final-copyrights">
+                    <span class="amazon-services-title2">© 1996-2023, Amazon.com, Inc. or its affiliates</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
