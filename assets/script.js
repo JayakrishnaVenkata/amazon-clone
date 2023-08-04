@@ -37,7 +37,7 @@ function Changeslide(n){
 
 
 function moveScroll(n){
-    let scroll=document.querySelector(".x-contents-img").scrollLeft+=n;
+    let scroll=document.querySelector(".internal-x-contents").scrollLeft+=n;
 }
 
 function moveScroll2(n){
